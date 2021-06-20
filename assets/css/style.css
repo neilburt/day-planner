@@ -2,6 +2,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-size: 16px;
   line-height: 1;
+  margin-bottom: 64px;
 }
 
 #today {
@@ -52,6 +53,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding-top: 2rem;
 }
 
 .past {
@@ -70,6 +72,7 @@ textarea {
 }
 
 .saveBtn {
+  padding-top: 2rem;
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -77,7 +80,7 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
